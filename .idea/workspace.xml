@@ -1,0 +1,2056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37ee4fd8-4963-4723-aa8c-e24a3bd44542" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/HowTomcatWorks.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Articles/The_Singleton_Pattern.doc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Articles/Working_with_Threads.doc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PropertiesFilesCopier.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Tomcat4.1.12.license" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/com/brainysoftware/pyrmont/util/HttpSniffer$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/com/brainysoftware/pyrmont/util/HttpSniffer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex00/lieve/APMTest.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex00/lieve/Task.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex00/lieve/ThreadTest$Task.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex00/lieve/ThreadTest.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex01/pyrmont/HttpServer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex01/pyrmont/Request.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex01/pyrmont/Response.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex02/pyrmont/Constants.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex02/pyrmont/Request.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex02/pyrmont/RequestFacade.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex02/pyrmont/Response.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex02/pyrmont/ResponseFacade.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex02/pyrmont/StaticResourceProcessor.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex02/pyrmont/server1/HttpServer1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex02/pyrmont/server1/ServletProcessor1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex02/pyrmont/server2/HttpServer2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/production/HowTomcatWorks/ex02/pyrmont/server2/ServletProcessor2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/conf/server.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/conf/tomcat-users.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/etc/employee1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/etc/employee2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/etc/ex14.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/commons-beanutils.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/commons-collections.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/commons-daemon.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/commons-digester.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/commons-logging.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/commons-modeler.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jaas.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jakarta-regexp-1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jcert.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jnet.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jsse.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/mx4j.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/naming-common.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/naming-factory.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/naming-resources.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/servlet.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/tomcat-util.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/xercesImpl.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/xmlParserAPIs.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/linux-compile.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mx4j.license" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/myApp/WEB-INF/classes/ModernServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/myApp/WEB-INF/classes/PrimitiveServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/myApp/WEB-INF/classes/SessionServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/brainysoftware/pyrmont/util/HttpSniffer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex00/lieve/APMTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex00/lieve/Task.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex00/lieve/ThreadTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex01/pyrmont/HttpServer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex01/pyrmont/Request.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex01/pyrmont/Response.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex02/pyrmont/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex02/pyrmont/Request.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex02/pyrmont/RequestFacade.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex02/pyrmont/Response.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex02/pyrmont/ResponseFacade.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex02/pyrmont/StaticResourceProcessor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex02/pyrmont/server1/HttpServer1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex02/pyrmont/server1/ServletProcessor1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex02/pyrmont/server2/HttpServer2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ex02/pyrmont/server2/ServletProcessor2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/SessionServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/SimpleContextConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/ServletProcessor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/StaticResourceProcessor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/RequestStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/ResponseStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/ResponseWriter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/http/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/http/HttpConnector.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/http/HttpHeader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/http/HttpProcessor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/http/HttpRequest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/http/HttpRequestFacade.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/http/HttpRequestLine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/http/HttpResponse.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/http/HttpResponseFacade.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/http/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/http/LocalStrings_es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/http/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/connector/http/SocketInputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex03/pyrmont/startup/Bootstrap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex04/pyrmont/core/SimpleContainer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex04/pyrmont/startup/Bootstrap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex05/pyrmont/core/SimpleContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex05/pyrmont/core/SimpleContextMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex05/pyrmont/core/SimpleContextValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex05/pyrmont/core/SimpleLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex05/pyrmont/core/SimplePipeline.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex05/pyrmont/core/SimpleWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex05/pyrmont/core/SimpleWrapperValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex05/pyrmont/startup/Bootstrap1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex05/pyrmont/startup/Bootstrap2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex05/pyrmont/valves/ClientIPLoggerValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex05/pyrmont/valves/HeaderLoggerValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex06/pyrmont/core/SimpleContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex06/pyrmont/core/SimpleContextLifecycleListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex06/pyrmont/core/SimpleContextMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex06/pyrmont/core/SimpleContextValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex06/pyrmont/core/SimpleLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex06/pyrmont/core/SimplePipeline.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex06/pyrmont/core/SimpleWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex06/pyrmont/core/SimpleWrapperValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex06/pyrmont/startup/Bootstrap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex07/pyrmont/core/SimpleContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex07/pyrmont/core/SimpleContextLifecycleListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex07/pyrmont/core/SimpleContextMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex07/pyrmont/core/SimpleContextValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex07/pyrmont/core/SimpleLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex07/pyrmont/core/SimplePipeline.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex07/pyrmont/core/SimpleWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex07/pyrmont/core/SimpleWrapperValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex07/pyrmont/startup/Bootstrap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex08/pyrmont/core/SimpleContextConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex08/pyrmont/core/SimplePipeline.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex08/pyrmont/core/SimpleWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex08/pyrmont/core/SimpleWrapperValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex08/pyrmont/startup/Bootstrap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex09/pyrmont/core/SimpleContextConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex09/pyrmont/core/SimplePipeline.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex09/pyrmont/core/SimpleWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex09/pyrmont/core/SimpleWrapperValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex09/pyrmont/startup/Bootstrap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex10/pyrmont/core/SimpleContextConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex10/pyrmont/core/SimplePipeline.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex10/pyrmont/core/SimpleWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex10/pyrmont/core/SimpleWrapperValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex10/pyrmont/realm/SimpleRealm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex10/pyrmont/realm/SimpleUserDatabaseRealm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex10/pyrmont/startup/Bootstrap1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex10/pyrmont/startup/Bootstrap2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex11/pyrmont/core/SimpleContextConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex11/pyrmont/startup/Bootstrap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex13/pyrmont/core/SimpleContextConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex13/pyrmont/startup/Bootstrap1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex13/pyrmont/startup/Bootstrap2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex14/pyrmont/core/SimpleContextConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex14/pyrmont/startup/Bootstrap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex14/pyrmont/startup/Stopper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex15/pyrmont/digestertest/Address.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex15/pyrmont/digestertest/Employee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex15/pyrmont/digestertest/EmployeeRuleSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex15/pyrmont/digestertest/Office.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex15/pyrmont/digestertest/Test01.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex15/pyrmont/digestertest/Test02.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex15/pyrmont/digestertest/Test03.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex15/pyrmont/startup/Bootstrap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex16/pyrmont/shutdownhook/MySwingApp.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex20/pyrmont/modelmbeantest1/Car.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex20/pyrmont/modelmbeantest1/ModelAgent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex20/pyrmont/modelmbeantest2/Car.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex20/pyrmont/modelmbeantest2/ModelAgent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex20/pyrmont/modelmbeantest2/car-mbean-descriptor.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex20/pyrmont/standardmbeantest/Car.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex20/pyrmont/standardmbeantest/CarMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/ex20/pyrmont/standardmbeantest/StandardAgent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Authenticator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Cluster.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Connector.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Contained.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Container.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ContainerEvent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ContainerListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ContainerServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Context.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/DefaultContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Deployer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Engine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Globals.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Group.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Host.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/HttpRequest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/HttpResponse.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/InstanceEvent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/InstanceListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Lifecycle.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/LifecycleEvent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/LifecycleException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/LifecycleListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Loader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Logger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Manager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Mapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Pipeline.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Realm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Request.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Response.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Role.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Server.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ServerFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Service.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Session.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/SessionEvent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/SessionListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Store.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/User.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/UserDatabase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Valve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ValveContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/Wrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/authenticator/AuthenticatorBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/authenticator/BasicAuthenticator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/authenticator/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/authenticator/DigestAuthenticator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/authenticator/FormAuthenticator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/authenticator/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/authenticator/LocalStrings_es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/authenticator/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/authenticator/NonLoginAuthenticator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/authenticator/SSLAuthenticator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/authenticator/SavedRequest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/authenticator/SingleSignOn.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/cluster/ClusterMemberInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/cluster/ClusterReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/cluster/ClusterSender.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/cluster/ClusterSessionBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/cluster/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/cluster/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/cluster/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/cluster/MulticastReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/cluster/MulticastSender.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/cluster/ReplicationWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/cluster/StandardCluster.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/HttpRequestBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/HttpRequestFacade.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/HttpRequestWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/HttpResponseBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/HttpResponseFacade.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/HttpResponseWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/LocalStrings_es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/RequestBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/RequestFacade.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/RequestStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/RequestWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/ResponseBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/ResponseFacade.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/ResponseStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/ResponseWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/ResponseWriter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http/DefaultHeaders.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http/HttpConnector.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http/HttpHeader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http/HttpProcessor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http/HttpRequestImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http/HttpRequestLine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http/HttpRequestStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http/HttpResponseImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http/HttpResponseStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http/LocalStrings_es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http/SocketInputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http10/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http10/HttpConnector.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http10/HttpProcessor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http10/HttpRequestImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http10/HttpResponseImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http10/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/connector/http10/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/ApplicationContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/ApplicationContextFacade.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/ApplicationDispatcher.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/ApplicationFilterChain.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/ApplicationFilterConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/ApplicationHttpRequest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/ApplicationHttpResponse.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/ApplicationRequest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/ApplicationResponse.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/ContainerBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/FastEngineMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/MappingRequest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/NamingContextListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardContextMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardContextValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardDefaultContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardEngine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardEngineMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardEngineValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardHost.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardHostDeployer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardHostMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardHostValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardPipeline.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardServer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardWrapperFacade.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/core/StandardWrapperValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/deploy/ApplicationParameter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/deploy/ContextEjb.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/deploy/ContextEnvironment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/deploy/ContextLocalEjb.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/deploy/ContextResource.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/deploy/ContextResourceLink.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/deploy/ErrorPage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/deploy/FilterDef.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/deploy/FilterMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/deploy/LoginConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/deploy/NamingResources.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/deploy/ResourceParams.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/deploy/SecurityCollection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/deploy/SecurityConstraint.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/deploy/Test.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/loader/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/loader/Extension.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/loader/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/loader/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/loader/Reloader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/loader/ResourceEntry.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/loader/StandardClassLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/loader/WebappClassLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/loader/WebappLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/logger/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/logger/FileLogger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/logger/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/logger/LocalStrings_es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/logger/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/logger/LoggerBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/logger/SystemErrLogger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/logger/SystemOutLogger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/ClassNameMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/ConnectorMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/ContextEnvironmentMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/ContextResourceLinkMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/ContextResourceMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/DefaultContextMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/GlobalResourcesLifecycleListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/GroupMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/MBeanFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/MBeanUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/NamingResourcesMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/RoleMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/ServerLifecycleListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/StandardContextMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/StandardEngineMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/StandardHostMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/StandardServerMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/StandardServiceMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/UserMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/mbeans/mbeans-descriptors.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/net/DefaultServerSocketFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/net/SSLServerSocketFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/net/ServerSocketFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/realm/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/realm/GenericPrincipal.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/realm/JAASCallbackHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/realm/JAASMemoryLoginModule.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/realm/JAASRealm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/realm/JDBCRealm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/realm/JNDIRealm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/realm/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/realm/LocalStrings_es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/realm/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/realm/MemoryRealm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/realm/MemoryRuleSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/realm/RealmBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/realm/UserDatabaseRealm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/servlets/CGIServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/servlets/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/servlets/DefaultServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/servlets/HTMLManagerServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/servlets/InvokerHttpRequest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/servlets/InvokerServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/servlets/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/servlets/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/servlets/ManagerServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/servlets/WebdavServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/session/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/session/DistributedManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/session/FileStore.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/session/JDBCStore.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/session/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/session/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/session/ManagerBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/session/PersistentManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/session/PersistentManagerBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/session/StandardManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/session/StandardSession.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/session/StandardSessionFacade.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/session/StoreBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/ByteArrayServletOutputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/ResponseIncludeWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSICommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSIConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSIEcho.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSIExec.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSIExternalResolver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSIFlastmod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSIFsize.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSIInclude.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSIMediator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSIPrintenv.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSIProcessor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSIServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSIServletExternalResolver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSIServletRequestUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSISet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/ssi/SSIStopProcessingException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/Authenticators.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/Bootstrap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/BootstrapService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/BootstrapServiceContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/Catalina.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/CatalinaManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/CatalinaManagerMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/CatalinaService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/ClassLoaderFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/ContextConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/ContextRuleSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/CopyParentClassLoaderRule.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/Embedded.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/EmbeddedManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/EmbeddedManagerMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/EngineConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/EngineRuleSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/HomesUserDatabase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/HostConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/HostRuleSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/LifecycleListenerRule.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/NamingRuleSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/PasswdUserDatabase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/SecurityClassLoad.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/TldRuleSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/Tool.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/UserConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/UserDatabase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/startup/WebRuleSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/users/AbstractGroup.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/users/AbstractRole.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/users/AbstractUser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/users/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/users/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/users/MemoryGroup.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/users/MemoryRole.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/users/MemoryUser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/users/MemoryUserDatabase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/users/MemoryUserDatabaseFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/Base64.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/CGIProcessEnvironment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/CharsetMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/CharsetMapperDefault.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/CookieTools.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/CustomObjectInputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/DOMWriter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/DateTool.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/Enumerator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/FastDateFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/FastHttpDateFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/HexUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/IOTools.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/InstanceSupport.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/LifecycleSupport.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/LocalStrings_es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/MD5Encoder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/MIME2Java.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/ParameterMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/ProcessEnvironment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/ProcessHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/Queue.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/RequestUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/ResourceSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/ServerInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/ServerInfo.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/Strftime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/StringManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/StringParser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/URL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/URLEncoder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/util/XMLWriter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/valves/AccessLogValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/valves/CertificatesValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/valves/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/valves/ErrorDispatcherValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/valves/ErrorReportValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/valves/JDBCAccessLogValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/valves/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/valves/LocalStrings_es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/valves/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/valves/RemoteAddrValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/valves/RemoteHostValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/valves/RequestDumperValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/valves/RequestFilterValve.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/catalina/valves/ValveBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/ContextAccessController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/ContextBindings.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/EjbRef.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/JndiPermission.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/LocalStrings_es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/NameParserImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/NamingContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/NamingContextBindingsEnumeration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/NamingContextEnumeration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/NamingEntry.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/NamingService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/NamingServiceMBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/ResourceEnvRef.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/ResourceLinkRef.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/ResourceRef.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/SelectorContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/StringManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/TransactionRef.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/java/javaURLContextFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/resources/BaseDirContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/resources/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/resources/DirContextURLConnection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/resources/DirContextURLStreamHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/resources/DirContextURLStreamHandlerFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/resources/FileDirContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/resources/LocalStrings.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/resources/LocalStrings_ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/resources/ProxyDirContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/resources/RecyclableNamingEnumeration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/resources/Resource.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/resources/ResourceAttributes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/resources/WARDirContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/org/apache/naming/resources/jndi/Handler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/test/MySwingApp.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/test/MySwingAppWithShutdownHook.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/test/RunnableDemo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/test/ShutdownHookDemo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/test/ThreadDemo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/test/UseDigesterExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/test/UseRequestUtilExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/todo/test/UseStringParserExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapps/app1/WEB-INF/classes/ModernServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapps/app1/WEB-INF/classes/PrimitiveServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapps/app1/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapps/manager.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webapps/myadmin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webroot/ModernServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webroot/ModernServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webroot/PrimitiveServlet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webroot/PrimitiveServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webroot/SessionServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webroot/images/logo.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webroot/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webroot/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/win-compile.bat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/work/_/_/myApp/SESSIONS.ser" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints>
+      <file url="file://$PROJECT_DIR$/src/ex01/pyrmont/Response.java" />
+    </disable_hints>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="HowTomcatWorks" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HttpServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ex01/pyrmont/HttpServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linux-compile.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linux-compile.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="win-compile.bat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/win-compile.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".editorconfig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.editorconfig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="APMTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ex00/lieve/APMTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpSniffer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/brainysoftware/pyrmont/util/HttpSniffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1672">
+              <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webroot/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webroot/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ex01/pyrmont/Request.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Properties</find>
+      <find>ResponseFacade</find>
+      <find>main</find>
+      <find>RequestUtil</find>
+      <find>Violet</find>
+      <find>Hello. Roses are red.</find>
+      <find>PrimitiveServlet</find>
+      <find>threadStatus</find>
+      <find>stop()</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/ex02/pyrmont</dir>
+      <dir>$PROJECT_DIR$/src/ex03/pyrmont</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/ex01/pyrmont/Response.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/org/apache/catalina/core/NamingContextListener.java" />
+        <option value="$PROJECT_DIR$/src/ex01/pyrmont/Response.java" />
+        <option value="$PROJECT_DIR$/src/ex01/pyrmont/Request.java" />
+        <option value="$PROJECT_DIR$/webroot/index.jsp" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/ex02/pyrmont/HttpServer1.java" />
+        <option value="$PROJECT_DIR$/src/ex02/pyrmont/HttpServer2.java" />
+        <option value="$PROJECT_DIR$/src/ex02/pyrmont/server1/HttpServer1.java" />
+        <option value="$PROJECT_DIR$/src/ex02/pyrmont/server1/ServletProcessor1.java" />
+        <option value="$PROJECT_DIR$/src/ex02/pyrmont/server2/HttpServer2.java" />
+        <option value="$PROJECT_DIR$/src/ex02/pyrmont/server2/ServletProcessor2.java" />
+        <option value="$PROJECT_DIR$/src/ex03/pyrmont/connector/http/HttpProcessor.java" />
+        <option value="$PROJECT_DIR$/src/ex03/pyrmont/connector/http/HttpConnector.java" />
+        <option value="$PROJECT_DIR$/src/ex02/pyrmont/RequestFacade.java" />
+        <option value="$PROJECT_DIR$/src/com/brainysoftware/pyrmont/util/HttpSniffer.java" />
+        <option value="$PROJECT_DIR$/src/ex00/lieve/Task.java" />
+        <option value="$PROJECT_DIR$/src/ex00/lieve/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/org/apache/catalina/core/StandardContext.java" />
+        <option value="$PROJECT_DIR$/src/ex09/pyrmont/startup/Bootstrap.java" />
+        <option value="$PROJECT_DIR$/src/ex03/pyrmont/connector/http/HttpResponse.java" />
+        <option value="$PROJECT_DIR$/src/ex00/lieve/APMTest.java" />
+        <option value="$PROJECT_DIR$/.editorconfig" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="47" />
+    <option name="y" value="237" />
+    <option name="width" value="1873" />
+    <option name="height" value="843" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>ActionScript specificJavaScript</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Accessibility</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization &gt; Bidirectional Text</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Typography</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Annotations verifyingGroovy</id>
+          </State>
+          <State>
+            <id>Ant inspections</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>Batch Applications Issues</id>
+          </State>
+          <State>
+            <id>Bean Validation issues</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJava</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CFML</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Checkstyle</id>
+          </State>
+          <State>
+            <id>Class metricsJava</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Cloning issuesJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Code quality toolsCSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Compiler issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>Data flow issuesGroovy</id>
+          </State>
+          <State>
+            <id>Data flow issuesJava</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>DeclarationGroovy</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>Encapsulation issuesJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>Finalization issuesJava</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>FreeMarker inspections</id>
+          </State>
+          <State>
+            <id>GSPGrailsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Haml</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Language Injection</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Logging issuesJava</id>
+          </State>
+          <State>
+            <id>Manifest</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Memory issuesJava</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>OtherGroovy</id>
+          </State>
+          <State>
+            <id>Packaging issuesJava</id>
+          </State>
+          <State>
+            <id>Pages Navigation Model</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Properties FilesJava</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>RESTful Web Service</id>
+          </State>
+          <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>SetupSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>Spring BootSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring MVCSpring</id>
+          </State>
+          <State>
+            <id>Spring SecuritySpring</id>
+          </State>
+          <State>
+            <id>Spring Web FlowSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Struts 2Struts</id>
+          </State>
+          <State>
+            <id>Tapestry</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
+            <id>Velocity inspections</id>
+          </State>
+          <State>
+            <id>Visibility issuesJava</id>
+          </State>
+          <State>
+            <id>WSDL issues</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+          <State>
+            <id>toString() issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HowTomcatWorks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HowTomcatWorks" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HttpSniffer">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="Bootstrap (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ex03.pyrmont.startup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ex03.pyrmont.startup.Bootstrap" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HowTomcatWorks" />
+      <envs />
+    </configuration>
+    <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ex09.pyrmont.startup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ex09.pyrmont.startup.Bootstrap" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HowTomcatWorks" />
+      <envs />
+    </configuration>
+    <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ex01.pyrmont.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ex01.pyrmont.HttpServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HowTomcatWorks" />
+      <envs />
+    </configuration>
+    <configuration name="HttpSniffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.brainysoftware.pyrmont.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.brainysoftware.pyrmont.util.HttpSniffer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HowTomcatWorks" />
+      <envs />
+    </configuration>
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ex00.lieve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ex00.lieve.ThreadTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HowTomcatWorks" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.HttpSniffer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Bootstrap" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ThreadTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Bootstrap (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HttpServer" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.HttpSniffer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HttpServer" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Bootstrap (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Bootstrap" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ThreadTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37ee4fd8-4963-4723-aa8c-e24a3bd44542" name="Default" comment="" />
+      <created>1547913981716</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547913981716</updated>
+      <workItem from="1547913987542" duration="51000" />
+      <workItem from="1547914050208" duration="1550000" />
+      <workItem from="1547954791465" duration="10768000" />
+      <workItem from="1548072938480" duration="218000" />
+      <workItem from="1548241992648" duration="5336000" />
+      <workItem from="1548251743785" duration="3426000" />
+      <workItem from="1548289738356" duration="3241000" />
+      <workItem from="1548336434750" duration="557000" />
+      <workItem from="1549112785016" duration="2212000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27359000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26658624" sideWeight="0.25894135" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45958987" sideWeight="0.7560801" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27864897" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26658624" sideWeight="0.74105865" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20886981" sideWeight="0.81902987" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.18097015" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47889024" sideWeight="0.47138768" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/pyrmont/HttpServer.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/pyrmont/HttpServer.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/pyrmont/HttpServer.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/pyrmont/HttpServer.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="67" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="file" />
+        <watch expression="file.getAbsolutePath()" language="JAVA" />
+        <watch expression="BUFFER_SIZE" language="JAVA" />
+        <watch expression="new String(bytes)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>new String(bytes)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>BUFFER_SIZE</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file.getAbsolutePath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Lifecycle.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/StandardContext.java" />
+    <entry file="uml://JAVA/ex09.pyrmont.startup.Bootstrap">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ex09.pyrmont.startup.Bootstrap</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">ex09.pyrmont.startup.Bootstrap</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-270.0" y="-52.0" />
+          <SelectedNodes>
+            <node>ex09.pyrmont.startup.Bootstrap</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ex09.pyrmont.core.SimplePipeline">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ex09.pyrmont.core.SimplePipeline</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">org.apache.catalina.Lifecycle</node>
+            <node x="123.0" y="0.0">org.apache.catalina.Pipeline</node>
+            <node x="43.0" y="80.0">ex09.pyrmont.core.SimplePipeline</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ex09.pyrmont.core.SimplePipeline" target="org.apache.catalina.Pipeline">
+              <point x="34.25" y="-15.0" />
+              <point x="145.75" y="55.0" />
+              <point x="171.5" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ex09.pyrmont.core.SimplePipeline" target="org.apache.catalina.Lifecycle">
+              <point x="-34.25" y="-15.0" />
+              <point x="77.25" y="55.0" />
+              <point x="51.5" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-216.0" y="-12.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex09/pyrmont/core/SimpleWrapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/ex09/pyrmont/core/SimpleContextConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/ex09/pyrmont/core/SimplePipeline.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/apache/naming/NamingContextEnumeration.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/loader/WebappLoader.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/servlets/WebdavServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/servlets/DefaultServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/loader/StandardClassLoader.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/loader/Constants.java" />
+    <entry file="file://$PROJECT_DIR$/src/ex09/pyrmont/core/SimpleWrapperValve.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex09/pyrmont/startup/Bootstrap.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpConnector.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Connector.java" />
+    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/connector/http/Constants.java" />
+    <entry file="file://$PROJECT_DIR$/webroot/ModernServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/ServletProcessor.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="698" column="29" lean-forward="false" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Launcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="235" column="0" lean-forward="false" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="561" column="6" lean-forward="true" selection-start-line="561" selection-start-column="6" selection-end-line="561" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/startup/Bootstrap.java" />
+    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/connector/http/HttpResponse.java" />
+    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/StaticResourceProcessor.java" />
+    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/connector/http/HttpProcessor.java" />
+    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/connector/http/HttpConnector.java" />
+    <entry file="file://$PROJECT_DIR$/src/ex02/pyrmont/server1/ServletProcessor1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex02/pyrmont/server1/HttpServer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/naming/resources/RecyclableNamingEnumeration.java" />
+    <entry file="file://$PROJECT_DIR$/src/ex01/pyrmont/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex00/lieve/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/instrument/ClassDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/instrument/ClassFileTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3420">
+          <caret line="180" column="10" lean-forward="false" selection-start-line="180" selection-start-column="10" selection-end-line="180" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/instrument/IllegalClassFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="7" lean-forward="false" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/instrument/Instrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12635">
+          <caret line="665" column="0" lean-forward="false" selection-start-line="665" selection-start-column="0" selection-end-line="665" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/instrument/UnmodifiableClassException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/pyrmont/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex00/lieve/APMTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/brainysoftware/pyrmont/util/HttpSniffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex01/pyrmont/HttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux-compile.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/win-compile.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.6.3 (/usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/bin/python3.6) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.161</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>HowTomcatWorks</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
